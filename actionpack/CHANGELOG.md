@@ -1,3 +1,7 @@
+*   Remove deprecated `ActionDispatch::Http::ParameterFilter`.
+
+    *Rafael Mendonça França*
+
 *   `remote_ip` will no longer ignore IPs in X-Forwarded-For headers if they
     are accompanied by port information.
 
