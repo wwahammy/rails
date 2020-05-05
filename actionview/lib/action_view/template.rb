@@ -285,15 +285,6 @@ module ActionView
         end
       end
 
-      class LegacyTemplate < DelegateClass(Template) # :nodoc:
-        attr_reader :source
-
-        def initialize(template, source)
-          super(template)
-          @source = source
-        end
-      end
-
       # Among other things, this method is responsible for properly setting
       # the encoding of the compiled template.
       #
