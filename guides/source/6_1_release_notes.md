@@ -243,6 +243,8 @@ Please refer to the [Changelog][active-storage] for detailed changes.
 
 ### Removals
 
+*   Remove deprecated `ActiveStorage::Downloading`.
+
 ### Deprecations
 
 ### Notable changes
