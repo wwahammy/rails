@@ -71,6 +71,5 @@ module ActiveStorage
 
     autoload :Transformer
     autoload :ImageProcessingTransformer
-    autoload :MiniMagickTransformer
   end
 end
