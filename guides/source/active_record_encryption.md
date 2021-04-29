@@ -33,7 +33,7 @@ active_record_encryption:
   key_derivation_salt: xEY0dt6TZcAMg52K7O84wYzkjvbA62Hz
 ```
 
-NOTE: These generated keys and salt are 32 bytes length. If you generate these yourself, the minimum lengths you should use are 12 bytes for the master key (this will be used to derive the AES 32 bytes key) and 20 bytes for the salt.
+NOTE: These generated keys and salt are 32 bytes length. If you generate these yourself, the minimum lengths you should use are 12 bytes for the primary key (this will be used to derive the AES 32 bytes key) and 20 bytes for the salt.
 
 ### Declaration of encrypted attributes
 
